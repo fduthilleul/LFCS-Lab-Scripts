@@ -41,7 +41,7 @@ fi
 # Install Essential Packages
 # ---------------------------------------------------------------------
 echo "[*] Installing required tools..."
-$PKG_INSTALL nfs-utils git libvirt-client qemu-img mdadm nginx netcat-openbsd || true
+$PKG_INSTALL nfs-utils git libvirt-client qemu-img mdadm nginx nmap-ncat netcat-openbsd || true
 
 # ---------------------------------------------------------------------
 # Task 1 – Libvirt VM Definition
